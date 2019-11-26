@@ -80,4 +80,4 @@ export default connect(
     onArchiveTask: id => dispatch(archiveTask(id)),
     onPinTask: id => dispatch(pinTask(id))
   })
-);
+)(PureTaskList);
